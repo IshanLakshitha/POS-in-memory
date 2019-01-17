@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.fx.controllers.MainPageController">
+   <children>                                                                                                                                                                             
+      <Button fx:id="btnManageCustomers" layoutX="51.0" layoutY="200.0" mnemonicParsing="false" onAction="#clickManageCustomers" prefHeight="75.0" prefWidth="147.0" text="Manage Customers">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="257.0" layoutY="200.0" mnemonicParsing="false" onAction="#ClickManageitems" prefHeight="75.0" prefWidth="147.0" text="Manage Items">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="51.0" layoutY="301.0" mnemonicParsing="false" onAction="#ClickPlaceOrder" prefHeight="75.0" prefWidth="147.0" text="Place Order">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button layoutX="257.0" layoutY="301.0" mnemonicParsing="false" onAction="#clickViewOrders" prefHeight="75.0" prefWidth="147.0" text="View Orders">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button layoutX="371.0" layoutY="14.0" mnemonicParsing="false" onAction="#clickLogOut" prefHeight="23.0" prefWidth="65.0" text="Logout">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="13.0" mnemonicParsing="false" onAction="#clickOnSettingButton" prefHeight="26.0" prefWidth="73.0" text="Settings">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="156.0" fitWidth="195.0" layoutX="147.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/logo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
